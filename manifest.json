@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Custom NewTab",
+  "description": "New Chrome Tab Page",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon":"icon.png",
+    "default_popup":"main.html"
+  },
+
+  "chrome_url_overrides" : {
+    "newtab": "ChromeStartPage\\index.html"
+  }
+
+}
